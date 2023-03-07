@@ -1,0 +1,7 @@
+{ 
+   "primary": 
+   {
+      "address": {{ cfg.ip }},
+      "mask":    {{ cfg.mask }}
+   }
+}
