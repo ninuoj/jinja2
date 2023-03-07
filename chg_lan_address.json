@@ -1,7 +1,14 @@
 { 
+   "secondary": [
+   {
+      "address": "{{ old_cfg.ip }}",
+      "mask":    "{{ old_cfg.mask }}",
+      "secondary": [null]
+   }
+    ],
    "primary": 
    {
-      "address": "{{ cfg.ip }}",
-      "mask":    "{{ cfg.mask }}"
-   }
+      "address": "{{ new_cfg.ip }}",
+      "mask":    "{{ new_cfg.mask }}"
+   }    
 }
